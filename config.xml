@@ -5,12 +5,12 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.eco-umk.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ЭКО-УМК</name>
+    <name>EcoPort</name>
 
     <description>
-        «ЭКО-УМК»  – управляющая многопрофильная компания
+        Приложение для клиентов «ЭКО-УМК»  – управляющая многопрофильная компания.
     </description>
 
     <author>Tadapp</author>
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#005392" />
+    <preference name="SplashScreenSpinnerColor" value="#0075F3" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
